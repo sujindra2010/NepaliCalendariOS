@@ -12,6 +12,13 @@
 		598C636D20A1652A00F97A93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 598C636B20A1652A00F97A93 /* Main.storyboard */; };
 		598C636F20A1652A00F97A93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 598C636E20A1652A00F97A93 /* Assets.xcassets */; };
 		598C637220A1652A00F97A93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 598C637020A1652A00F97A93 /* LaunchScreen.storyboard */; };
+		598C637B20A167E700F97A93 /* NepaliTranslator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598C637A20A167E700F97A93 /* NepaliTranslator.swift */; };
+		598C637D20A16BD400F97A93 /* DateUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598C637C20A16BD400F97A93 /* DateUtils.swift */; };
+		598C637F20A1733600F97A93 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598C637E20A1733600F97A93 /* Date.swift */; };
+		598C638120A1829D00F97A93 /* DateConverterHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598C638020A1829D00F97A93 /* DateConverterHelper.swift */; };
+		598C638320A1A36000F97A93 /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598C638220A1A36000F97A93 /* ModelController.swift */; };
+		598C638520A1A39100F97A93 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598C638420A1A39100F97A93 /* DataViewController.swift */; };
+		F7BC1B84AAED0FFAC96DB203 /* Pods_Nepali_calendar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81D128B8E417910FF37EFFFB /* Pods_Nepali_calendar.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +29,15 @@
 		598C636E20A1652A00F97A93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		598C637120A1652A00F97A93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		598C637320A1652A00F97A93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		598C637A20A167E700F97A93 /* NepaliTranslator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NepaliTranslator.swift; sourceTree = "<group>"; };
+		598C637C20A16BD400F97A93 /* DateUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateUtils.swift; sourceTree = "<group>"; };
+		598C637E20A1733600F97A93 /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		598C638020A1829D00F97A93 /* DateConverterHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateConverterHelper.swift; sourceTree = "<group>"; };
+		598C638220A1A36000F97A93 /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
+		598C638420A1A39100F97A93 /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		81D128B8E417910FF37EFFFB /* Pods_Nepali_calendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nepali_calendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D71316B862EDA4AE2125EFF5 /* Pods-Nepali calendar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nepali calendar.release.xcconfig"; path = "Pods/Target Support Files/Pods-Nepali calendar/Pods-Nepali calendar.release.xcconfig"; sourceTree = "<group>"; };
+		D9BCB97D1C8010D1F9E50787 /* Pods-Nepali calendar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nepali calendar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Nepali calendar/Pods-Nepali calendar.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7BC1B84AAED0FFAC96DB203 /* Pods_Nepali_calendar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +57,8 @@
 			children = (
 				598C636620A1652900F97A93 /* Nepali calendar */,
 				598C636520A1652900F97A93 /* Products */,
+				C17267D3C85FA386653D8507 /* Pods */,
+				B8B0A0B1F205495F024BDA79 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +73,45 @@
 		598C636620A1652900F97A93 /* Nepali calendar */ = {
 			isa = PBXGroup;
 			children = (
+				598C637920A167C800F97A93 /* utils */,
 				598C636720A1652900F97A93 /* AppDelegate.swift */,
 				598C636920A1652A00F97A93 /* ViewController.swift */,
 				598C636B20A1652A00F97A93 /* Main.storyboard */,
 				598C636E20A1652A00F97A93 /* Assets.xcassets */,
 				598C637020A1652A00F97A93 /* LaunchScreen.storyboard */,
 				598C637320A1652A00F97A93 /* Info.plist */,
+				598C638220A1A36000F97A93 /* ModelController.swift */,
+				598C638420A1A39100F97A93 /* DataViewController.swift */,
 			);
 			path = "Nepali calendar";
+			sourceTree = "<group>";
+		};
+		598C637920A167C800F97A93 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				598C637A20A167E700F97A93 /* NepaliTranslator.swift */,
+				598C637C20A16BD400F97A93 /* DateUtils.swift */,
+				598C637E20A1733600F97A93 /* Date.swift */,
+				598C638020A1829D00F97A93 /* DateConverterHelper.swift */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		B8B0A0B1F205495F024BDA79 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				81D128B8E417910FF37EFFFB /* Pods_Nepali_calendar.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C17267D3C85FA386653D8507 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D9BCB97D1C8010D1F9E50787 /* Pods-Nepali calendar.debug.xcconfig */,
+				D71316B862EDA4AE2125EFF5 /* Pods-Nepali calendar.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +121,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 598C637620A1652A00F97A93 /* Build configuration list for PBXNativeTarget "Nepali calendar" */;
 			buildPhases = (
+				2C5C5A402336CB669D4DC381 /* [CP] Check Pods Manifest.lock */,
 				598C636020A1652900F97A93 /* Sources */,
 				598C636120A1652900F97A93 /* Frameworks */,
 				598C636220A1652900F97A93 /* Resources */,
+				223C83412FEB7142DE580904 /* [CP] Embed Pods Frameworks */,
+				28979A1F260A7BD7DE18CAFD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,12 +184,74 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		223C83412FEB7142DE580904 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Nepali calendar/Pods-Nepali calendar-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/PodAsset/PodAsset.framework",
+				"${BUILT_PRODUCTS_DIR}/SHViewPager/SHViewPager.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PodAsset.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SHViewPager.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Nepali calendar/Pods-Nepali calendar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		28979A1F260A7BD7DE18CAFD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Nepali calendar/Pods-Nepali calendar-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2C5C5A402336CB669D4DC381 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Nepali calendar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		598C636020A1652900F97A93 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				598C638120A1829D00F97A93 /* DateConverterHelper.swift in Sources */,
 				598C636A20A1652A00F97A93 /* ViewController.swift in Sources */,
+				598C637F20A1733600F97A93 /* Date.swift in Sources */,
+				598C637D20A16BD400F97A93 /* DateUtils.swift in Sources */,
+				598C638520A1A39100F97A93 /* DataViewController.swift in Sources */,
+				598C637B20A167E700F97A93 /* NepaliTranslator.swift in Sources */,
+				598C638320A1A36000F97A93 /* ModelController.swift in Sources */,
 				598C636820A1652900F97A93 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,9 +387,12 @@
 		};
 		598C637720A1652A00F97A93 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9BCB97D1C8010D1F9E50787 /* Pods-Nepali calendar.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T5G3VLFY36;
 				INFOPLIST_FILE = "Nepali calendar/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sujindra.Nepali-calendar";
@@ -286,9 +404,12 @@
 		};
 		598C637820A1652A00F97A93 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D71316B862EDA4AE2125EFF5 /* Pods-Nepali calendar.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T5G3VLFY36;
 				INFOPLIST_FILE = "Nepali calendar/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sujindra.Nepali-calendar";

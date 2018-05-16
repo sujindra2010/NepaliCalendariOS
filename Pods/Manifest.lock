@@ -1,0 +1,15 @@
+PODS:
+  - PodAsset (0.22.0)
+  - SHViewPager (2.0.7):
+    - PodAsset
+
+DEPENDENCIES:
+  - SHViewPager (~> 2.0)
+
+SPEC CHECKSUMS:
+  PodAsset: d9d35b6a86ceaeaead63692a1bce27b4aea243b3
+  SHViewPager: 1762822d1694495171d39196260d64f2dd6041fa
+
+PODFILE CHECKSUM: 9d88edf57e5167af135a47ac70a4f80d1ff4ebce
+
+COCOAPODS: 1.4.0
