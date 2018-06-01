@@ -6,7 +6,5 @@ target 'Nepali calendar' do
   use_frameworks!
 
   # Pods for Nepali calendar
-	pod 'SHViewPager', '~> 2.0'
-#    pod 'MaterialComponents/Snackbar'
 
 end

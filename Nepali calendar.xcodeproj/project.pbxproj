@@ -7,14 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5970238620C1459300B6A91A /* UIExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5970238520C1459200B6A91A /* UIExtension.swift */; };
 		598C636820A1652900F97A93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598C636720A1652900F97A93 /* AppDelegate.swift */; };
 		598C636A20A1652A00F97A93 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598C636920A1652A00F97A93 /* ViewController.swift */; };
 		598C636D20A1652A00F97A93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 598C636B20A1652A00F97A93 /* Main.storyboard */; };
 		598C636F20A1652A00F97A93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 598C636E20A1652A00F97A93 /* Assets.xcassets */; };
 		598C637220A1652A00F97A93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 598C637020A1652A00F97A93 /* LaunchScreen.storyboard */; };
 		598C637B20A167E700F97A93 /* NepaliTranslator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598C637A20A167E700F97A93 /* NepaliTranslator.swift */; };
-		598C637D20A16BD400F97A93 /* DateUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598C637C20A16BD400F97A93 /* DateUtils.swift */; };
-		598C637F20A1733600F97A93 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598C637E20A1733600F97A93 /* Date.swift */; };
 		598C638120A1829D00F97A93 /* DateConverterHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598C638020A1829D00F97A93 /* DateConverterHelper.swift */; };
 		598C638320A1A36000F97A93 /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598C638220A1A36000F97A93 /* ModelController.swift */; };
 		598C638520A1A39100F97A93 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598C638420A1A39100F97A93 /* DataViewController.swift */; };
@@ -22,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5970238520C1459200B6A91A /* UIExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIExtension.swift; sourceTree = "<group>"; };
 		598C636420A1652900F97A93 /* Nepali calendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nepali calendar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		598C636720A1652900F97A93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		598C636920A1652A00F97A93 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -30,8 +30,6 @@
 		598C637120A1652A00F97A93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		598C637320A1652A00F97A93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		598C637A20A167E700F97A93 /* NepaliTranslator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NepaliTranslator.swift; sourceTree = "<group>"; };
-		598C637C20A16BD400F97A93 /* DateUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateUtils.swift; sourceTree = "<group>"; };
-		598C637E20A1733600F97A93 /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
 		598C638020A1829D00F97A93 /* DateConverterHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateConverterHelper.swift; sourceTree = "<group>"; };
 		598C638220A1A36000F97A93 /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
 		598C638420A1A39100F97A93 /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
@@ -52,6 +50,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5970238420C1458100B6A91A /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				5970238520C1459200B6A91A /* UIExtension.swift */,
+			);
+			path = extension;
+			sourceTree = "<group>";
+		};
 		598C635B20A1652900F97A93 = {
 			isa = PBXGroup;
 			children = (
@@ -73,6 +79,7 @@
 		598C636620A1652900F97A93 /* Nepali calendar */ = {
 			isa = PBXGroup;
 			children = (
+				5970238420C1458100B6A91A /* extension */,
 				598C637920A167C800F97A93 /* utils */,
 				598C636720A1652900F97A93 /* AppDelegate.swift */,
 				598C636920A1652A00F97A93 /* ViewController.swift */,
@@ -90,8 +97,6 @@
 			isa = PBXGroup;
 			children = (
 				598C637A20A167E700F97A93 /* NepaliTranslator.swift */,
-				598C637C20A16BD400F97A93 /* DateUtils.swift */,
-				598C637E20A1733600F97A93 /* Date.swift */,
 				598C638020A1829D00F97A93 /* DateConverterHelper.swift */,
 			);
 			path = utils;
@@ -247,9 +252,8 @@
 			files = (
 				598C638120A1829D00F97A93 /* DateConverterHelper.swift in Sources */,
 				598C636A20A1652A00F97A93 /* ViewController.swift in Sources */,
-				598C637F20A1733600F97A93 /* Date.swift in Sources */,
-				598C637D20A16BD400F97A93 /* DateUtils.swift in Sources */,
 				598C638520A1A39100F97A93 /* DataViewController.swift in Sources */,
+				5970238620C1459300B6A91A /* UIExtension.swift in Sources */,
 				598C637B20A167E700F97A93 /* NepaliTranslator.swift in Sources */,
 				598C638320A1A36000F97A93 /* ModelController.swift in Sources */,
 				598C636820A1652900F97A93 /* AppDelegate.swift in Sources */,

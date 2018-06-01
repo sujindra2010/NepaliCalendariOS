@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "91693E1FAB37402071A6ED0C7BE62288"
+               BlueprintIdentifier = "F6CAB244D7432E30759A34E89FB28348"
                BuildableName = "Pods_Nepali_calendar.framework"
                BlueprintName = "Pods-Nepali calendar"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -26,7 +26,6 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      language = ""
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
@@ -37,7 +36,6 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      language = ""
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
       ignoresPersistentStateOnLaunch = "NO"
@@ -47,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "91693E1FAB37402071A6ED0C7BE62288"
+            BlueprintIdentifier = "F6CAB244D7432E30759A34E89FB28348"
             BuildableName = "Pods_Nepali_calendar.framework"
             BlueprintName = "Pods-Nepali calendar"
             ReferencedContainer = "container:Pods.xcodeproj">

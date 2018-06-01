@@ -76,10 +76,7 @@ class ViewController:UIViewController, UIPageViewControllerDelegate,ModelControl
             var endDayOfWeek = currentDateConverter.getEndDateOfCurrentMonth(dayOfWeek: current_dayOfWeekNumber, day: numberOfDaysInMonth - current_day)
             let currentEndOfWeek = endDayOfWeek
     
-            //print("current date\(current_year)/\(current_month)/\(current_day) \(current_dayOfWeek) \(current_dayOfWeekNumber)")
-            //print("current date month 1:: numberofDaysInMonth\(numberOfDaysInMonth)")
-    
-    
+        
             for i in (2000...current_year).reversed(){
             for j in (1...12).reversed(){
 
@@ -92,8 +89,7 @@ class ViewController:UIViewController, UIPageViewControllerDelegate,ModelControl
             }
             startDayOfWeek = dateConverter.getStartDayOfMonth(dayOfWeek: endDayOfWeek, day: daysInMonth)
             pageObjectData.append(PageData.init(month: j, year: i, startDayOfMonth: startDayOfWeek, endDayOfMonth: endDayOfWeek, numberOfDaysInMonth: daysInMonth, current: false))
-            //print("year:: \(i), month:: \(j):: daysInMonth:: \(daysInMonth) startDayOfWeek:: \(startDayOfWeek) endDayOfWeek::\(endDayOfWeek)")
-    
+           
             }else if current_year != i{
             let daysInMonth = dateConverter.getNumberOfDaysInMonth(year: i, month: j)
             if startDayOfWeek > 0 {
@@ -104,7 +100,7 @@ class ViewController:UIViewController, UIPageViewControllerDelegate,ModelControl
     
             startDayOfWeek = dateConverter.getStartDayOfMonth(dayOfWeek: endDayOfWeek, day: daysInMonth)
             pageObjectData.append(PageData.init(month: j, year: i, startDayOfMonth: startDayOfWeek, endDayOfMonth: endDayOfWeek, numberOfDaysInMonth: daysInMonth, current: false))
-            //print(" current_year:: != i year:: \(i), month::\(j):: daysInMonth:: \(daysInMonth) startDayOfWeek: \(startDayOfWeek) endDayOfWeek\(endDayOfWeek)")
+            
     
             }
     
@@ -120,7 +116,7 @@ class ViewController:UIViewController, UIPageViewControllerDelegate,ModelControl
             if current_year == i && current_month == j {
     
             pageObjectData.append(PageData.init(month: j, year: i, startDayOfMonth: startDayOfWeek, endDayOfMonth: endDayOfWeek, numberOfDaysInMonth: numberOfDaysInMonth, current: true))
-            //print(" if current_year == i && current_month == j { pageData::\(i)-\(j)\(pageObjectData)")
+           
                 currentIndex = pageObjectData.count - 1
             }else
             if current_year == i && current_month < j {
@@ -132,7 +128,7 @@ class ViewController:UIViewController, UIPageViewControllerDelegate,ModelControl
             }
             endDayOfWeek = dateConverter.getEndDateOfMonth(dayOfWeek: startDayOfWeek, day: daysInMonth)
             pageObjectData.append(PageData.init(month: j, year: i, startDayOfMonth: startDayOfWeek, endDayOfMonth: endDayOfWeek, numberOfDaysInMonth: daysInMonth, current: false))
-            //print("current_year == i && current_month < j pageData::\(i)-\(j)\(pageObjectData)")
+            
             }
             else if current_year != i
             {
@@ -145,14 +141,12 @@ class ViewController:UIViewController, UIPageViewControllerDelegate,ModelControl
     
             endDayOfWeek = dateConverter.getEndDateOfMonth(dayOfWeek: startDayOfWeek, day: daysInMonth)
             pageObjectData.append(PageData.init(month: j, year: i, startDayOfMonth: startDayOfWeek, endDayOfMonth: endDayOfWeek, numberOfDaysInMonth: daysInMonth, current: false))
-            //print("else pageData::\(i)-\(j)\(pageObjectData)")
     
             }
     
             }
             }
         modelController.pageObjectData = pageObjectData
-        //showTodayCalender()
     }
     
     private func showTodayCalender(){
@@ -160,14 +154,6 @@ class ViewController:UIViewController, UIPageViewControllerDelegate,ModelControl
         let startingViewController: DataViewController = self.modelController.viewControllerAtIndex(currentIndex, storyboard: self.storyboard!)!
         let viewControllers = [startingViewController]
         self.pageViewController!.setViewControllers(viewControllers, direction: .forward, animated: true, completion: {done in })
-//        if self.currentIndex == 2 {
-//            skipButton.isHidden = true
-//            doneButton.setTitle("Done",for:.normal)
-//        }else{
-//            skipButton.isHidden=false
-//            doneButton.setTitle("Next",for:.normal)
-//
-//        }
     }
     
     private func goToPage(index:Int){
@@ -224,23 +210,6 @@ class ViewController:UIViewController, UIPageViewControllerDelegate,ModelControl
         return .mid
     }
     
-    //    func pageViewController(pageViewController: UIPageViewController, viewControllerAfterViewController viewController: UIViewController) -> UIViewController? {
-    //        currentIndex = self.pageViewController?.viewControllers?.index(of: viewController)!
-    //        if currentIndex == (self.pageViewController?.viewControllers?.count)!-1 {
-    //            return nil
-    //        }
-    //        let nextIndex = abs((currentIndex! + 1) % (self.pageViewController?.viewControllers?.count)!)
-    //        return self.pageViewController?.viewControllers?[nextIndex]
-    //    }
-    //
-    //    func pageViewController(pageViewController: UIPageViewController, viewControllerBeforeViewController viewController: UIViewController) -> UIViewController? {
-    //        let currentIndex = self.pageViewController?.viewControllers?.index(of: viewController)!
-    //        if currentIndex == 0 {
-    //            return nil
-    //        }
-    //        let previousIndex = abs((currentIndex! - 1 + (self.pageViewController?.viewControllers?.count)!) % (self.pageViewController?.viewControllers?.count)!)
-    //        return self.pageViewController?.viewControllers![previousIndex]
-    //    }
     
     func pageViewController(_ pageViewController: UIPageViewController, willTransitionTo pendingViewControllers: [UIViewController]) {
         pendingIndex = self.modelController.indexOfViewController(pendingViewControllers.first as! DataViewController)
@@ -248,23 +217,7 @@ class ViewController:UIViewController, UIPageViewControllerDelegate,ModelControl
     }
     
     func pageViewController(_ pageViewController: UIPageViewController, didFinishAnimating finished: Bool, previousViewControllers: [UIViewController], transitionCompleted completed: Bool) {
-        //        if completed && self.pendingIndex != previousViewControllers.first?.view.tag{
-        //            currentIndex = pendingIndex
-        //            if let index = currentIndex {
-        //                uiControl.currentPage = index
-        //            }
-        //            print("current index::" + String(currentIndex))
-        //
-        //        }
-        //        if let firstViewController = previousViewControllers.first{
-        //            let index = self.modelController.indexOfViewController(firstViewController as! DataViewController)
-        //            if index != nil{
-        //                print(String(describing:index))
-        //
-        //            uiControl.currentPage = index
-        //            }
-        //
-        //        }
+       
         if completed{
             // 2
             self.currentIndex = self.pendingIndex
@@ -273,14 +226,6 @@ class ViewController:UIViewController, UIPageViewControllerDelegate,ModelControl
             let month = DateConverterHelper.init().getNepaliMonth(month: pageData.month)
             titleLabel.text = month + " ("+NepaliTranslator.getNumber(english: "\(pageData.year)")+")"
 
-//            if self.currentIndex == 2 {
-//                skipButton.isHidden = true
-//                doneButton.setTitle("Done",for:.normal)
-//            }else{
-//                skipButton.isHidden=false
-//                doneButton.setTitle("Next",for:.normal)
-//
-//            }
         }
     }
     

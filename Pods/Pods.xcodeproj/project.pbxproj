@@ -3,202 +3,43 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0415DE20EAB17DE2D979F2CEEE1A3134 /* SHViewPagerController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D17CE52F5B69441FB5515DDD7CCA53 /* SHViewPagerController.m */; };
-		08084B69986AE22AC0C129716AA63551 /* SHViewPager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DF16AC87948A96F20B607384096648DD /* SHViewPager-dummy.m */; };
-		0837FFED869E43773C8E72CA4C65A0EE /* SHBaseView.h in Headers */ = {isa = PBXBuildFile; fileRef = 770A3488F0DBA34ECA16186837F52DB6 /* SHBaseView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0C489DBCCB0977535FECD4CE70CFDA52 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09EA1568E4CB359EF7EB852651679902 /* Foundation.framework */; };
-		167E92284D1CFB10120A7D49555F9FA9 /* Pods-Nepali calendar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DEA4A165A93282DAEE16864A5231EA91 /* Pods-Nepali calendar-dummy.m */; };
-		22866BC06DE7283B1438BB05E6836748 /* PodAsset.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF880865CF9325FD25B75448CBA82DF /* PodAsset.m */; };
-		2E5A31B0B4F2B947051D1DD502097334 /* SHViewPager.xib in Resources */ = {isa = PBXBuildFile; fileRef = C342854FCDB39E03744A7474D6ED47DE /* SHViewPager.xib */; };
-		3D1E60E47FE5B82D18BEC337075E26CC /* SHViewPagerDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = DA86CAD04B9B4A1A0181BA1D2C79D76D /* SHViewPagerDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4996C3D81A532CB43BCC3ED91B0188AE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4375681F04547E6F941BCAC739C26A92 /* UIKit.framework */; };
-		4C27587D7F3C154F56DB6918EDBB7FBC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09EA1568E4CB359EF7EB852651679902 /* Foundation.framework */; };
-		4D612B128182E1324602BD1A2DB3BCD7 /* SHViewPagerController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4683F63307B9918FE071918A035E651B /* SHViewPagerController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		63F256D385C1607E44886BD56DADE0D4 /* Pods-Nepali calendar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 78BEB0B6AD7C335002AFA2CFED9C3F8D /* Pods-Nepali calendar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6C7B1CAFFC8E73A7293F9565AC27CCB1 /* SHBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 53D5695C32171CEAB117EB3DC7B70662 /* SHBaseView.m */; };
-		6FE11E9A1ABDC2C6527454261A7E9287 /* SHViewPager.h in Headers */ = {isa = PBXBuildFile; fileRef = ABE57A3B42EF95A67CE74A22C4C885C3 /* SHViewPager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		750754B0FF3F3AD0CF10FE2CCBAB06CF /* SHViewPagerModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 92AFC997EC40C9F729F199F3B1B0714E /* SHViewPagerModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7B8567113B2034315D15C1ED236DAE53 /* SHViewPager.m in Sources */ = {isa = PBXBuildFile; fileRef = 619AF6E3C3E41E939A7CE35349BBE7DA /* SHViewPager.m */; };
-		7ED41B523D86ED454F0A3327FBE85E0F /* PodAsset-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AB060D48977F5AFB7BD3D6A08618A9E9 /* PodAsset-dummy.m */; };
-		9AD7B3AA576D349EBC00E555C3FA77E5 /* SHViewPagerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AEB15FA20678F6ABDA2A07040907F49 /* SHViewPagerDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A68D574AF4A458C7875B4648D70AB1B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09EA1568E4CB359EF7EB852651679902 /* Foundation.framework */; };
-		B124A80580BD6B69FCA268F479EAA527 /* PodAsset.h in Headers */ = {isa = PBXBuildFile; fileRef = B9DE72A9836559A6533B4839601F013E /* PodAsset.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C669B2456AEC2D242AEDF01C4C710B9C /* SHViewPager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C19E0891A968A0AD6E8DD28D286BA17F /* SHViewPager.bundle */; };
-		D4D318E8D852549D5DCB649EF9B62157 /* SHViewPager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D6F68CFE31C55959FA6B9F5EAB70805 /* SHViewPager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D7BF6889708118E9D9CBF8388FD4144D /* PodAsset-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A21A9F5024814378FCED7875FDEE81DF /* PodAsset-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E2C2D5BC9ECB21C465918CEA846E9341 /* PodAsset.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05AE8DCB612783C4B4A729C31B11CD25 /* PodAsset.framework */; };
+		26E502908AE899FDC51787FC1A27F4A0 /* Pods-Nepali calendar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DEA4A165A93282DAEE16864A5231EA91 /* Pods-Nepali calendar-dummy.m */; };
+		9D17798EBD81F09601263545AC8C8F21 /* Pods-Nepali calendar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 78BEB0B6AD7C335002AFA2CFED9C3F8D /* Pods-Nepali calendar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA57EBEBAF42D68996D16B06AA99DE69 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		11CC393A38457FF1F5720B6F9D05D83B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C13A5A9D6C5FC473F5C9085BC547E789;
-			remoteInfo = SHViewPager;
-		};
-		2BB3C2D1E2ECDA919D73BBBD41B94F0A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 41F60F41990057260BBD5864258926A1;
-			remoteInfo = "SHViewPager-SHViewPager";
-		};
-		992613937D3A949F535AB093F8B514B7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 72203A8F371EA5EC45318E10D54DB52E;
-			remoteInfo = PodAsset;
-		};
-		DCF292AD2B4622A95E933CB820283C79 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 72203A8F371EA5EC45318E10D54DB52E;
-			remoteInfo = PodAsset;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		05AE8DCB612783C4B4A729C31B11CD25 /* PodAsset.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PodAsset.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		09EA1568E4CB359EF7EB852651679902 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		22C9F63A9BD69A6822EFC5A7513B4EE2 /* Pods-Nepali calendar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Nepali calendar.release.xcconfig"; sourceTree = "<group>"; };
 		237489DE1E0D683D30677B958E3F7D04 /* Pods-Nepali calendar-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Nepali calendar-resources.sh"; sourceTree = "<group>"; };
-		27438F1512BA7C4C8CBC18217170630C /* SHViewPager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SHViewPager.modulemap; sourceTree = "<group>"; };
-		2934C478CBC2C766B58CAA5044EC273E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3476B75231AE03DAB54AE76C983EFEF8 /* Pods_Nepali_calendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nepali_calendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3E67353E61E6110AAA2DBF0069DA4941 /* ResourceBundle-SHViewPager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-SHViewPager-Info.plist"; sourceTree = "<group>"; };
-		4375681F04547E6F941BCAC739C26A92 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		4683F63307B9918FE071918A035E651B /* SHViewPagerController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SHViewPagerController.h; path = SHViewPager/Classes/SHViewPagerController.h; sourceTree = "<group>"; };
-		4E6714CA64AC60FB329810E2FE23B3CA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4FCB13F56DBDED89AC57033EF2973200 /* Pods-Nepali calendar-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Nepali calendar-acknowledgements.markdown"; sourceTree = "<group>"; };
-		53D5695C32171CEAB117EB3DC7B70662 /* SHBaseView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SHBaseView.m; path = SHViewPager/Classes/SHBaseView.m; sourceTree = "<group>"; };
-		5D6F68CFE31C55959FA6B9F5EAB70805 /* SHViewPager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SHViewPager-umbrella.h"; sourceTree = "<group>"; };
-		619AF6E3C3E41E939A7CE35349BBE7DA /* SHViewPager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SHViewPager.m; path = SHViewPager/Classes/SHViewPager.m; sourceTree = "<group>"; };
-		6AEB15FA20678F6ABDA2A07040907F49 /* SHViewPagerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SHViewPagerDelegate.h; path = SHViewPager/Classes/SHViewPagerDelegate.h; sourceTree = "<group>"; };
-		770A3488F0DBA34ECA16186837F52DB6 /* SHBaseView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SHBaseView.h; path = SHViewPager/Classes/SHBaseView.h; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		78BEB0B6AD7C335002AFA2CFED9C3F8D /* Pods-Nepali calendar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Nepali calendar-umbrella.h"; sourceTree = "<group>"; };
 		900D2C727C0CE76E55DC17576B64D433 /* Pods-Nepali calendar-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Nepali calendar-acknowledgements.plist"; sourceTree = "<group>"; };
-		92AFC997EC40C9F729F199F3B1B0714E /* SHViewPagerModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SHViewPagerModule.h; path = SHViewPager/Classes/SHViewPagerModule.h; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		975DD56B87FA8C2C95556ABA0E43268B /* Pods-Nepali calendar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Nepali calendar.modulemap"; sourceTree = "<group>"; };
-		9E170EFB4A95EFC9215B6D57FF23F0A6 /* SHViewPager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SHViewPager.xcconfig; sourceTree = "<group>"; };
-		A1EEFCE6D7C727A6910A6A641D2133CC /* SHViewPager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SHViewPager-prefix.pch"; sourceTree = "<group>"; };
-		A21A9F5024814378FCED7875FDEE81DF /* PodAsset-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PodAsset-umbrella.h"; sourceTree = "<group>"; };
 		A274F9E3E346D61F62DE775BD98F919C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AB060D48977F5AFB7BD3D6A08618A9E9 /* PodAsset-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PodAsset-dummy.m"; sourceTree = "<group>"; };
-		ABE57A3B42EF95A67CE74A22C4C885C3 /* SHViewPager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SHViewPager.h; path = SHViewPager/Classes/SHViewPager.h; sourceTree = "<group>"; };
-		B259B3FE82B3E158722BC2C8B3DD3EF0 /* PodAsset.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PodAsset.xcconfig; sourceTree = "<group>"; };
-		B5BEBA6AD4A89C83C076E09429FFE51A /* PodAsset.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PodAsset.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B9DE72A9836559A6533B4839601F013E /* PodAsset.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PodAsset.h; path = Pod/Classes/PodAsset.h; sourceTree = "<group>"; };
-		C19E0891A968A0AD6E8DD28D286BA17F /* SHViewPager.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SHViewPager.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		C2D17CE52F5B69441FB5515DDD7CCA53 /* SHViewPagerController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SHViewPagerController.m; path = SHViewPager/Classes/SHViewPagerController.m; sourceTree = "<group>"; };
-		C342854FCDB39E03744A7474D6ED47DE /* SHViewPager.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = SHViewPager.xib; path = SHViewPager/Assets/SHViewPager.xib; sourceTree = "<group>"; };
-		CEB124494C31AED6AF385287A0537015 /* SHViewPager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SHViewPager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9152A899EE64272FC74DEA0400FBEC0 /* Pods-Nepali calendar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Nepali calendar.debug.xcconfig"; sourceTree = "<group>"; };
-		DA86CAD04B9B4A1A0181BA1D2C79D76D /* SHViewPagerDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SHViewPagerDataSource.h; path = SHViewPager/Classes/SHViewPagerDataSource.h; sourceTree = "<group>"; };
 		DEA4A165A93282DAEE16864A5231EA91 /* Pods-Nepali calendar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Nepali calendar-dummy.m"; sourceTree = "<group>"; };
-		DF16AC87948A96F20B607384096648DD /* SHViewPager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SHViewPager-dummy.m"; sourceTree = "<group>"; };
-		E335053B774E1677061E1A8F4EE335C9 /* PodAsset-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PodAsset-prefix.pch"; sourceTree = "<group>"; };
-		E5F548F6850DA07874DF6F919BA75971 /* PodAsset.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PodAsset.modulemap; sourceTree = "<group>"; };
-		EFF880865CF9325FD25B75448CBA82DF /* PodAsset.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PodAsset.m; path = Pod/Classes/PodAsset.m; sourceTree = "<group>"; };
+		F22A37AC71E79FB499E7E7F450B5CA63 /* Pods_Nepali_calendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Nepali_calendar.framework; path = "Pods-Nepali calendar.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F73D743376F7CD93DFBE5CE92B5D1647 /* Pods-Nepali calendar-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Nepali calendar-frameworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1C0406CE82B147666EB37B0B2CF6CC5E /* Frameworks */ = {
+		4F5B41C794BDB40F4801D7028B0D4587 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C27587D7F3C154F56DB6918EDBB7FBC /* Foundation.framework in Frameworks */,
-				E2C2D5BC9ECB21C465918CEA846E9341 /* PodAsset.framework in Frameworks */,
-				4996C3D81A532CB43BCC3ED91B0188AE /* UIKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2DC8C3CC1BE47809C365CEF37A47EC17 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A68D574AF4A458C7875B4648D70AB1B5 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		688826073B1E73D105E2A8923A56DD50 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		79F5988B3A34AE9640AB0F1165C02D63 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0C489DBCCB0977535FECD4CE70CFDA52 /* Foundation.framework in Frameworks */,
+				FA57EBEBAF42D68996D16B06AA99DE69 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		14B0C7F14AC7EC957B3B3AA37F1B3349 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				09EA1568E4CB359EF7EB852651679902 /* Foundation.framework */,
-				4375681F04547E6F941BCAC739C26A92 /* UIKit.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		15DB90A6D0E0F9FE2864A36BC7F61E32 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				4E6714CA64AC60FB329810E2FE23B3CA /* Info.plist */,
-				E5F548F6850DA07874DF6F919BA75971 /* PodAsset.modulemap */,
-				B259B3FE82B3E158722BC2C8B3DD3EF0 /* PodAsset.xcconfig */,
-				AB060D48977F5AFB7BD3D6A08618A9E9 /* PodAsset-dummy.m */,
-				E335053B774E1677061E1A8F4EE335C9 /* PodAsset-prefix.pch */,
-				A21A9F5024814378FCED7875FDEE81DF /* PodAsset-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/PodAsset";
-			sourceTree = "<group>";
-		};
-		161D82EFA39BB5FA47F6B054C34B154B /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				B5BEBA6AD4A89C83C076E09429FFE51A /* PodAsset.framework */,
-				3476B75231AE03DAB54AE76C983EFEF8 /* Pods_Nepali_calendar.framework */,
-				C19E0891A968A0AD6E8DD28D286BA17F /* SHViewPager.bundle */,
-				CEB124494C31AED6AF385287A0537015 /* SHViewPager.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		23335DFCD727CADB176FF802725DB91D /* SHViewPager */ = {
-			isa = PBXGroup;
-			children = (
-				770A3488F0DBA34ECA16186837F52DB6 /* SHBaseView.h */,
-				53D5695C32171CEAB117EB3DC7B70662 /* SHBaseView.m */,
-				ABE57A3B42EF95A67CE74A22C4C885C3 /* SHViewPager.h */,
-				619AF6E3C3E41E939A7CE35349BBE7DA /* SHViewPager.m */,
-				4683F63307B9918FE071918A035E651B /* SHViewPagerController.h */,
-				C2D17CE52F5B69441FB5515DDD7CCA53 /* SHViewPagerController.m */,
-				DA86CAD04B9B4A1A0181BA1D2C79D76D /* SHViewPagerDataSource.h */,
-				6AEB15FA20678F6ABDA2A07040907F49 /* SHViewPagerDelegate.h */,
-				92AFC997EC40C9F729F199F3B1B0714E /* SHViewPagerModule.h */,
-				5705F6DDA5FBD64D13099C95B1CEF514 /* Resources */,
-				F16AB3A88625DD18A2AE5D17F964EC0B /* Support Files */,
-			);
-			path = SHViewPager;
-			sourceTree = "<group>";
-		};
 		2B6E6C829EE5934C018139BA61C5E6B5 /* Pods-Nepali calendar */ = {
 			isa = PBXGroup;
 			children = (
@@ -217,23 +58,22 @@
 			path = "Target Support Files/Pods-Nepali calendar";
 			sourceTree = "<group>";
 		};
-		5705F6DDA5FBD64D13099C95B1CEF514 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				C342854FCDB39E03744A7474D6ED47DE /* SHViewPager.xib */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				F36B841442F429924C34D46DA2B976EE /* Frameworks */,
-				AC61374546520EB9A371035BEB996775 /* Pods */,
-				161D82EFA39BB5FA47F6B054C34B154B /* Products */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				9E12340EFCA55C5BCC0AE6561FC3CC4A /* Products */,
 				A806B6FA3CD76FB33B77F5A0C75CB22A /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		9E12340EFCA55C5BCC0AE6561FC3CC4A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F22A37AC71E79FB499E7E7F450B5CA63 /* Pods_Nepali_calendar.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		A806B6FA3CD76FB33B77F5A0C75CB22A /* Targets Support Files */ = {
@@ -244,157 +84,51 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		AC61374546520EB9A371035BEB996775 /* Pods */ = {
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E3345353D24CAB0EFBD81671FC86B43D /* PodAsset */,
-				23335DFCD727CADB176FF802725DB91D /* SHViewPager */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		E3345353D24CAB0EFBD81671FC86B43D /* PodAsset */ = {
-			isa = PBXGroup;
-			children = (
-				B9DE72A9836559A6533B4839601F013E /* PodAsset.h */,
-				EFF880865CF9325FD25B75448CBA82DF /* PodAsset.m */,
-				15DB90A6D0E0F9FE2864A36BC7F61E32 /* Support Files */,
-			);
-			path = PodAsset;
-			sourceTree = "<group>";
-		};
-		F16AB3A88625DD18A2AE5D17F964EC0B /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				2934C478CBC2C766B58CAA5044EC273E /* Info.plist */,
-				3E67353E61E6110AAA2DBF0069DA4941 /* ResourceBundle-SHViewPager-Info.plist */,
-				27438F1512BA7C4C8CBC18217170630C /* SHViewPager.modulemap */,
-				9E170EFB4A95EFC9215B6D57FF23F0A6 /* SHViewPager.xcconfig */,
-				DF16AC87948A96F20B607384096648DD /* SHViewPager-dummy.m */,
-				A1EEFCE6D7C727A6910A6A641D2133CC /* SHViewPager-prefix.pch */,
-				5D6F68CFE31C55959FA6B9F5EAB70805 /* SHViewPager-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/SHViewPager";
-			sourceTree = "<group>";
-		};
-		F36B841442F429924C34D46DA2B976EE /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				05AE8DCB612783C4B4A729C31B11CD25 /* PodAsset.framework */,
-				14B0C7F14AC7EC957B3B3AA37F1B3349 /* iOS */,
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		4BFAE772B3157BF7B0CF7CCF4B88142E /* Headers */ = {
+		FE51E34FF746B26D05DBC7919210FDD5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63F256D385C1607E44886BD56DADE0D4 /* Pods-Nepali calendar-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5E1AF0CE17040811AD98150DD5B17342 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D7BF6889708118E9D9CBF8388FD4144D /* PodAsset-umbrella.h in Headers */,
-				B124A80580BD6B69FCA268F479EAA527 /* PodAsset.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		795DEB38E49FE472ED310E52FDFF61E9 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0837FFED869E43773C8E72CA4C65A0EE /* SHBaseView.h in Headers */,
-				D4D318E8D852549D5DCB649EF9B62157 /* SHViewPager-umbrella.h in Headers */,
-				6FE11E9A1ABDC2C6527454261A7E9287 /* SHViewPager.h in Headers */,
-				4D612B128182E1324602BD1A2DB3BCD7 /* SHViewPagerController.h in Headers */,
-				3D1E60E47FE5B82D18BEC337075E26CC /* SHViewPagerDataSource.h in Headers */,
-				9AD7B3AA576D349EBC00E555C3FA77E5 /* SHViewPagerDelegate.h in Headers */,
-				750754B0FF3F3AD0CF10FE2CCBAB06CF /* SHViewPagerModule.h in Headers */,
+				9D17798EBD81F09601263545AC8C8F21 /* Pods-Nepali calendar-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		41F60F41990057260BBD5864258926A1 /* SHViewPager-SHViewPager */ = {
+		F6CAB244D7432E30759A34E89FB28348 /* Pods-Nepali calendar */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 95A7E9A3C9B59D9892F17A81946EA77A /* Build configuration list for PBXNativeTarget "SHViewPager-SHViewPager" */;
+			buildConfigurationList = CF93E1198F9C2CBC47160785B10998B0 /* Build configuration list for PBXNativeTarget "Pods-Nepali calendar" */;
 			buildPhases = (
-				874FF78698131813A68E718448849237 /* Sources */,
-				688826073B1E73D105E2A8923A56DD50 /* Frameworks */,
-				7E60EDACBF006FE999BAFD5021B0CB8A /* Resources */,
+				72A57461DBD3FEF60C7586BD58667BB6 /* Sources */,
+				4F5B41C794BDB40F4801D7028B0D4587 /* Frameworks */,
+				FE51E34FF746B26D05DBC7919210FDD5 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-			);
-			name = "SHViewPager-SHViewPager";
-			productName = "SHViewPager-SHViewPager";
-			productReference = C19E0891A968A0AD6E8DD28D286BA17F /* SHViewPager.bundle */;
-			productType = "com.apple.product-type.bundle";
-		};
-		72203A8F371EA5EC45318E10D54DB52E /* PodAsset */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 48C194DA3AA773B8E82D9D9E13B7BC1D /* Build configuration list for PBXNativeTarget "PodAsset" */;
-			buildPhases = (
-				6DFC7084F8F757B310F31E942415537F /* Sources */,
-				79F5988B3A34AE9640AB0F1165C02D63 /* Frameworks */,
-				5E1AF0CE17040811AD98150DD5B17342 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = PodAsset;
-			productName = PodAsset;
-			productReference = B5BEBA6AD4A89C83C076E09429FFE51A /* PodAsset.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		91693E1FAB37402071A6ED0C7BE62288 /* Pods-Nepali calendar */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4EE0FA1DF0EB90559B076E77B5377222 /* Build configuration list for PBXNativeTarget "Pods-Nepali calendar" */;
-			buildPhases = (
-				2B317E08080D82818EB52F5186400127 /* Sources */,
-				2DC8C3CC1BE47809C365CEF37A47EC17 /* Frameworks */,
-				4BFAE772B3157BF7B0CF7CCF4B88142E /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C16ED4D1EB7A589733BC7A4254160880 /* PBXTargetDependency */,
-				18CAAA5DD9747D8EA4C89244C5AC024E /* PBXTargetDependency */,
 			);
 			name = "Pods-Nepali calendar";
 			productName = "Pods-Nepali calendar";
-			productReference = 3476B75231AE03DAB54AE76C983EFEF8 /* Pods_Nepali_calendar.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		C13A5A9D6C5FC473F5C9085BC547E789 /* SHViewPager */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 382D624BE23FDAD361349FE184B7E383 /* Build configuration list for PBXNativeTarget "SHViewPager" */;
-			buildPhases = (
-				10A89008622A78C363ACEA17F68578DF /* Sources */,
-				1C0406CE82B147666EB37B0B2CF6CC5E /* Frameworks */,
-				6276865AD7AB857F3D67E697D073A59F /* Resources */,
-				795DEB38E49FE472ED310E52FDFF61E9 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				0676331216551CB09E2E3B10549AE5A4 /* PBXTargetDependency */,
-				E26ADE85BE0BEDFDD4F57983B5BC2720 /* PBXTargetDependency */,
-			);
-			name = SHViewPager;
-			productName = SHViewPager;
-			productReference = CEB124494C31AED6AF385287A0537015 /* SHViewPager.framework */;
+			productReference = F22A37AC71E79FB499E7E7F450B5CA63 /* Pods_Nepali_calendar.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -414,181 +148,27 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 161D82EFA39BB5FA47F6B054C34B154B /* Products */;
+			productRefGroup = 9E12340EFCA55C5BCC0AE6561FC3CC4A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				72203A8F371EA5EC45318E10D54DB52E /* PodAsset */,
-				91693E1FAB37402071A6ED0C7BE62288 /* Pods-Nepali calendar */,
-				C13A5A9D6C5FC473F5C9085BC547E789 /* SHViewPager */,
-				41F60F41990057260BBD5864258926A1 /* SHViewPager-SHViewPager */,
+				F6CAB244D7432E30759A34E89FB28348 /* Pods-Nepali calendar */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXResourcesBuildPhase section */
-		6276865AD7AB857F3D67E697D073A59F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C669B2456AEC2D242AEDF01C4C710B9C /* SHViewPager.bundle in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7E60EDACBF006FE999BAFD5021B0CB8A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2E5A31B0B4F2B947051D1DD502097334 /* SHViewPager.xib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		10A89008622A78C363ACEA17F68578DF /* Sources */ = {
+		72A57461DBD3FEF60C7586BD58667BB6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6C7B1CAFFC8E73A7293F9565AC27CCB1 /* SHBaseView.m in Sources */,
-				08084B69986AE22AC0C129716AA63551 /* SHViewPager-dummy.m in Sources */,
-				7B8567113B2034315D15C1ED236DAE53 /* SHViewPager.m in Sources */,
-				0415DE20EAB17DE2D979F2CEEE1A3134 /* SHViewPagerController.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2B317E08080D82818EB52F5186400127 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				167E92284D1CFB10120A7D49555F9FA9 /* Pods-Nepali calendar-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6DFC7084F8F757B310F31E942415537F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7ED41B523D86ED454F0A3327FBE85E0F /* PodAsset-dummy.m in Sources */,
-				22866BC06DE7283B1438BB05E6836748 /* PodAsset.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		874FF78698131813A68E718448849237 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				26E502908AE899FDC51787FC1A27F4A0 /* Pods-Nepali calendar-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		0676331216551CB09E2E3B10549AE5A4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = PodAsset;
-			target = 72203A8F371EA5EC45318E10D54DB52E /* PodAsset */;
-			targetProxy = DCF292AD2B4622A95E933CB820283C79 /* PBXContainerItemProxy */;
-		};
-		18CAAA5DD9747D8EA4C89244C5AC024E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SHViewPager;
-			target = C13A5A9D6C5FC473F5C9085BC547E789 /* SHViewPager */;
-			targetProxy = 11CC393A38457FF1F5720B6F9D05D83B /* PBXContainerItemProxy */;
-		};
-		C16ED4D1EB7A589733BC7A4254160880 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = PodAsset;
-			target = 72203A8F371EA5EC45318E10D54DB52E /* PodAsset */;
-			targetProxy = 992613937D3A949F535AB093F8B514B7 /* PBXContainerItemProxy */;
-		};
-		E26ADE85BE0BEDFDD4F57983B5BC2720 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "SHViewPager-SHViewPager";
-			target = 41F60F41990057260BBD5864258926A1 /* SHViewPager-SHViewPager */;
-			targetProxy = 2BB3C2D1E2ECDA919D73BBBD41B94F0A /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
-		0068C27D166E3B6E3B584CF74235320D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B259B3FE82B3E158722BC2C8B3DD3EF0 /* PodAsset.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = "";
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/PodAsset/PodAsset-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PodAsset/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/PodAsset/PodAsset.modulemap";
-				PRODUCT_NAME = PodAsset;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		20EB19BE051A48E1C1E25AD0CC55E366 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B259B3FE82B3E158722BC2C8B3DD3EF0 /* PodAsset.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/PodAsset/PodAsset-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PodAsset/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/PodAsset/PodAsset.modulemap";
-				PRODUCT_NAME = PodAsset;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		240584B1C72C2A9DBCA5FDA5D259E398 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9E170EFB4A95EFC9215B6D57FF23F0A6 /* SHViewPager.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SHViewPager";
-				INFOPLIST_FILE = "Target Support Files/SHViewPager/ResourceBundle-SHViewPager-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = SHViewPager;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
 		323A24856F1A4871A780301AF5C02A2A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -652,7 +232,40 @@
 			};
 			name = Debug;
 		};
-		45F1A98848B98455C711D1F97145EF27 /* Release */ = {
+		BD902FF9036ECE63A2A9C8F05AAC595E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9152A899EE64272FC74DEA0400FBEC0 /* Pods-Nepali calendar.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Nepali calendar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Nepali calendar/Pods-Nepali calendar.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Nepali_calendar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BDD0109BEAB7721DDBE8E16E185AD285 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 22C9F63A9BD69A6822EFC5A7513B4EE2 /* Pods-Nepali calendar.release.xcconfig */;
 			buildSettings = {
@@ -685,116 +298,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		68BFEF877728E97A994BBC1AE549B945 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9E170EFB4A95EFC9215B6D57FF23F0A6 /* SHViewPager.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SHViewPager/SHViewPager-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SHViewPager/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SHViewPager/SHViewPager.modulemap";
-				PRODUCT_NAME = SHViewPager;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		68CB78B64AB3006C26DED3586A4DB6CB /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9E170EFB4A95EFC9215B6D57FF23F0A6 /* SHViewPager.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SHViewPager";
-				INFOPLIST_FILE = "Target Support Files/SHViewPager/ResourceBundle-SHViewPager-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = SHViewPager;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		B3D668A2233527A0A7A1B5F45C3CCE61 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9E170EFB4A95EFC9215B6D57FF23F0A6 /* SHViewPager.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SHViewPager/SHViewPager-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SHViewPager/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SHViewPager/SHViewPager.modulemap";
-				PRODUCT_NAME = SHViewPager;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		C47A50B9D073AFCFA85F3AC5A5F1D076 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D9152A899EE64272FC74DEA0400FBEC0 /* Pods-Nepali calendar.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Nepali calendar/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Nepali calendar/Pods-Nepali calendar.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Nepali_calendar;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		CA33F186435244FD0FD5B7325332656C /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -866,38 +369,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		382D624BE23FDAD361349FE184B7E383 /* Build configuration list for PBXNativeTarget "SHViewPager" */ = {
+		CF93E1198F9C2CBC47160785B10998B0 /* Build configuration list for PBXNativeTarget "Pods-Nepali calendar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B3D668A2233527A0A7A1B5F45C3CCE61 /* Debug */,
-				68BFEF877728E97A994BBC1AE549B945 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		48C194DA3AA773B8E82D9D9E13B7BC1D /* Build configuration list for PBXNativeTarget "PodAsset" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0068C27D166E3B6E3B584CF74235320D /* Debug */,
-				20EB19BE051A48E1C1E25AD0CC55E366 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		4EE0FA1DF0EB90559B076E77B5377222 /* Build configuration list for PBXNativeTarget "Pods-Nepali calendar" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C47A50B9D073AFCFA85F3AC5A5F1D076 /* Debug */,
-				45F1A98848B98455C711D1F97145EF27 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		95A7E9A3C9B59D9892F17A81946EA77A /* Build configuration list for PBXNativeTarget "SHViewPager-SHViewPager" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				240584B1C72C2A9DBCA5FDA5D259E398 /* Debug */,
-				68CB78B64AB3006C26DED3586A4DB6CB /* Release */,
+				BD902FF9036ECE63A2A9C8F05AAC595E /* Debug */,
+				BDD0109BEAB7721DDBE8E16E185AD285 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

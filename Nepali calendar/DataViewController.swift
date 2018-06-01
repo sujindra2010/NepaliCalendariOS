@@ -33,14 +33,7 @@ class DataViewController: UIViewController,UICollectionViewDelegate,UICollection
         let current_year = currentDateConverter.getConvertedYear()
         let current_month = currentDateConverter.getConvertedMonth()
         let current_day = currentDateConverter.getConvertedDays()
-//        let current_dayOfWeek = currentDateConverter.getConvertedDayOfWeek()
-//        let current_dayOfWeekNumber = currentDateConverter.getConvertedDayOfWeekNumber()
-//        
-//        let numberOfDaysInMonth = currentDateConverter.getNumberOfDaysInMonth(year: current_year, month: current_month)
-//        
-        //print("current date\(current_year)/\(current_month)/\(current_day) \(current_dayOfWeek) \(current_dayOfWeekNumber)")
-        //print("current date month 1:: numberofDaysInMonth\(numberOfDaysInMonth)")
-        
+
         var day = 0
         var extraDays = 0
         let converter = DateConverterHelper.init()
@@ -50,14 +43,11 @@ class DataViewController: UIViewController,UICollectionViewDelegate,UICollection
                 day+=1
 
                converter.nepToEng(yy: dataObject.year, mm: dataObject.month, dd: day)
-                //print("day:\(day)")
-                //print("dateobject::\(dataObject)")
+
                  let englishDay = converter.getConvertedDays()
-                //print("english Date\(englishDay)")
                 data.append(Data.init(day:day,englishDay: englishDay,today: (day == current_day)))
 
             }else if i<dataObject.startDayOfMonth{
-                //print("dateobject::\(dataObject)")
                 data.append(Data.init(day: 0,englishDay: 0, today: false))
                 extraDays+=1
             }
@@ -86,7 +76,6 @@ class DataViewController: UIViewController,UICollectionViewDelegate,UICollection
         
         if data[indexPath.row].day>0{
             
-//            cell.dayLabel.text = String(format:"%d",data[indexPath.row].day)
             cell.dayLabel.text = NepaliTranslator.getNumber(english: String(format:"%d",data[indexPath.row].day))
             
         }else{
@@ -98,8 +87,10 @@ class DataViewController: UIViewController,UICollectionViewDelegate,UICollection
             cell.englishDateLabel.text = ""
         }
         if data[indexPath.row].today && dataObject.current{
-            cell.contentView.backgroundColor = UIColor.green
+            cell.contentView.backgroundColor = UIColor(rgb:0xefefef)
         }
+        
+        cell.contentView.addBorders(edges: [.right,.bottom], color: UIColor(rgb: 0xefefef))
         return cell
     }
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
@@ -116,9 +107,7 @@ class DataViewController: UIViewController,UICollectionViewDelegate,UICollection
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-//        let message = MDCSnackbarMessage()
-//        message.text = "\(dataObject.year)/\(dataObject.month)/\(data[indexPath.row].day)"
-//        MDCSnackbarManager.show(message)
+
     }
 }
 

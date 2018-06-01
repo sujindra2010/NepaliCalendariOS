@@ -525,22 +525,6 @@ class DateConverterHelper {
         return bsData[month]
     }
     
-//    static func getInitialDate()->Date{
-//
-//            let formatter = DateFormatter()
-//            formatter.dateFormat = "yyyy/MM/dd"
-//            let date = formatter.date(from: "1943/4/14")
-//
-//            return date!
-//    }
-//    static func getDate(year:Int,months:Int,days:Int)->Date{
-//
-//            let formatter = DateFormatter()
-//            formatter.dateFormat = "yyyy/MM/dd"
-//            let date = formatter.date(from: "\(year)/\(months)/\(days)")
-//
-//            return date!
-//    }
     
     func getStartDateOfMonth(dayOfWeek:Int,day:Int)->Int{
         //print("dayOfweek::\(dayOfWeek) ,day::\(day)")
